@@ -1,0 +1,45 @@
+
+.scroll-object{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding: 20px;
+}
+
+.scroll-bg-2{
+	background: #6C63FF;
+	width: 700px;
+	margin: 5% auto;
+	padding: 25px;
+	border-radius: 50px;
+}
+
+.scroll-div-2{
+	max-width: 650px;
+	background: #6C63FF;
+	height: 300px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+.scroll-object-2{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding: 20px;
+}
+
+::-webkit-scrollbar{
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+	border-radius: 30px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#6C63FF), to(#AFAAFF));
+	box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.5), inset -2px -2px -2px rgba(0,0,0,0.25);
+}
+
+::-webkit-scrollbar-track{
+	background: linear-gradient(to right, #fff, #fff 1px, #fff 1px, #fff 1px);
+	border-radius: 50px;
+}

@@ -1,0 +1,159 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Arvo', serif;
+	font-family: 'Montserrat', sans-serif;
+	background: #f9f9f9;
+}
+
+.navbar{
+	background-color: #6C63FF;
+}
+
+.navbar-brand{
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+}
+
+.nav-link{
+	font-family: 'Montserrat', sans-serif;
+	color: #ffff;
+}
+
+.judul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.judul p{
+	top: 80px;
+	font-family: 'Arvo', serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+.seperator{
+	margin-top: 2px;
+	width: 75%;
+	height: 4px;
+	background-color: #843bc7;
+}
+
+.grafik{
+	overflow-x: scroll;
+	width: 100%;
+}
+.row{
+	margin-top: 5%;
+}
+
+.bar-status{
+	width: 500px;
+	height: 500px;
+	margin-left: 125px;
+	border-radius: 10%;
+	background-color: red;
+	margin-bottom: 35px;
+}
+.bulet-1, .bulet-2, .bulet-3{
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	position: absolute;
+	background-color: #6C63FF;
+	opacity: 15%;
+	z-index: -1;
+}
+
+.bulet-1{
+	right: -10%;
+	top: -10%;
+}
+
+.bulet-2{
+	right: 15%;
+	bottom: -25%;
+}
+
+.bulet-3{
+	top: -5%;
+	left: -5%;
+}
+
+.bulet-4, .bulet-5{
+	width: 500px;
+	height: 500px;
+	border-radius: 100%;
+	position: absolute;
+	background-color: #6C63FF;
+	opacity: 15%;
+	z-index: -2;
+}
+
+.bulet-4{
+	top: -20%;
+	right: -5%;
+}
+
+.bulet-5{
+	bottom: -20%;
+	left: -5%;
+}
+
+/*.footer{
+	margin-top: 15px;
+   	width: 100%;
+    height: 100px;
+    padding-left: 10px;
+    line-height: 50px;
+    background: #6C63FF;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}*/
+.footer{
+	margin-top: 43px;
+   	width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+    background: #6C63FF;
+    color: #fff;
+}
+
+.footer p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-periode{
+	margin-top: 15px;
+   	width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+    background: #6C63FF;
+    color: #fff;
+}
+
+.footer-periode p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}@media(max-width: 600px){
+	.judul p {
+		font-size: 25px;
+	}
+}

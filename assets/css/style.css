@@ -1,0 +1,135 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Arvo', serif;
+	font-family: 'Msontserrat', sans-serif;
+	background-color: #ffff;
+	overflow: hidden;
+}
+
+.card-body{
+	padding-left: 50px;
+	margin-top: 75px;
+	position: relative;
+	overflow: hidden;
+}
+
+.main h1{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.main h1 span{
+	color: #6C63FF ;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+}
+
+.row p{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.button{
+	box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #6C63FF;
+  border: 2px solid #6C63FF;
+  border-radius: 0.6em;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 0.7em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-left: 0px;
+}
+
+.button:hover{
+	color: #6C63FF;
+	outline: 0;
+}
+.as{
+	background-color: green; 
+	width: 170px; 
+	margin-top: -15px; 
+	border-radius: 10px; 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	flex-direction: column;
+	opacity: 0;
+	transition: 0.5s;
+}
+.as-unHidden{
+	opacity: 1;
+	transition: 0.5s;
+}
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.first:hover {
+  box-shadow: 0 0 40px 40px #ffff inset;
+}
+.colom-half{
+	width: 50%;
+	height: 100%;
+}
+.img{
+	position: absolute;
+	bottom: -25px;
+  	left: 50%;
+  	width: auto;
+}
+
+.bulet{
+	width: 500px;
+	height: 500px;
+	background-color: #6C63FF ;
+	border-radius: 100%;
+	z-index: -1;
+	opacity: 15%;
+	position: absolute;
+	left: 50px;
+}
+
+.bulet2{
+	width: 500px;
+	height: 500px;
+	background-color: #6C63FF;
+	border-radius: 100%;
+	z-index: -1;
+	opacity: 15%;
+	position: absolute;
+	right: -10%;
+	bottom: -250px; 
+}
+@media(max-width: 991px){
+	.img{
+		display: none;
+	}
+	.colom-half{
+		width: 100%;
+	}
+	.bulet{
+		top: -180px;
+		left: -150px;
+	}
+	.bulet2{
+		right: -100px;
+	}
+}

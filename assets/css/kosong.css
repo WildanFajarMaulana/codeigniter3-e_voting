@@ -1,0 +1,25 @@
+.lay{
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          flex-direction: column;
+        }
+        .lay img{
+          max-width: 500px;
+        }
+        .text{
+          width: auto;
+          max-width: 600px; 
+          display: flex;
+          justify-content: center; 
+          align-items: center; 
+          flex-direction: column; 
+          margin-top: 20px;
+        }
+        .text h5{
+          font-family: 'Arvo', serif;
+          font-size: 20px;
+        }
+        .text p{
+          text-align: center;
+        }

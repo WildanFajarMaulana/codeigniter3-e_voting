@@ -1,0 +1,169 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	font-family: 'Arvo', serif;
+	font-family: 'Montserrat', sans-serif;
+	background: #f9f9f9;
+	overflow-x: hidden;
+}
+.navbar{
+	background-color: #6C63FF;
+}
+
+.navbar-brand{
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+}
+
+.nav-link{
+	font-family: 'Montserrat', sans-serif;
+	color: #ffff;
+}
+
+.scroll-bg{
+	background: #6C63FF;
+	width: 500px;
+	margin: 5% auto;
+	padding: 25px;
+	border-radius: 50px;
+}
+
+.scroll-div{
+	width: 435px;
+	background: #6C63FF;
+	height: 300px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+.scroll-object{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding: 20px;
+}
+
+.scroll-bg-2{
+	background: #6C63FF;
+	width: 700px;
+	margin: 5% auto;
+	padding: 25px;
+	border-radius: 50px;
+}
+
+.scroll-div-2{
+	width: 650px;
+	background: #6C63FF;
+	height: 300px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+.scroll-object-2{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding: 20px;
+}
+
+::-webkit-scrollbar{
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+	border-radius: 30px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#6C63FF), to(#AFAAFF));
+	box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.5), inset -2px -2px -2px rgba(0,0,0,0.25);
+}
+
+::-webkit-scrollbar-track{
+	background: linear-gradient(to right, #fff, #fff 1px, #fff 1px, #fff 1px);
+	border-radius: 50px;
+}
+
+th{
+	color: #fff;
+}
+
+td{
+	color: #fff;
+}
+
+.run{
+	position: absolute;
+	top: 90%;
+	left: 21%;
+	transform: scaleX(-1);
+	z-index: -3;
+}
+
+.run img{
+	width: 40%;
+	max-width: 40%;
+}
+
+.bulet-1, .bulet-2, .bulet-3{
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	position: absolute;
+	background-color: #6C63FF;
+	opacity: 15%;
+	z-index: -1;
+}
+
+.bulet-1{
+	right: -10%;
+	top: -10%;
+}
+
+.bulet-2{
+	right: 15%;
+	bottom: -25%;
+}
+
+.bulet-3{
+	top: -5%;
+	left: -5%;
+}
+
+.bulet-4, .bulet-5{
+	width: 500px;
+	height: 500px;
+	border-radius: 100%;
+	position: absolute;
+	background-color: #6C63FF;
+	opacity: 15%;
+	z-index: -2;
+}
+
+.bulet-4{
+	top: -20%;
+	right: -5%;
+}
+
+.bulet-5{
+	bottom: -20%;
+	left: -5%;
+}
+
+.footer{
+	margin-top: 15px;
+   	width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+    background: #6C63FF;
+    color: #fff;
+}
+
+.footer p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

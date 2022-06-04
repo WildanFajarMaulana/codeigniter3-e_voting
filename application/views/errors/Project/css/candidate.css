@@ -1,0 +1,168 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Arvo', serif;
+	font-family: 'Montserrat', sans-serif;
+	background: #f9f9f9;
+	/*overflow: hidden;*/
+}
+
+.navbar{
+	background-color: #6c63ff;
+}
+
+.navbar-brand{
+	font-family: 'Arvo', serif;
+	font-weight: 700; 
+}
+
+.navbar-link{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+
+.judul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.judul p{
+	position: absolute;
+	top: 80px;
+	font-family: 'Arvo', serif;
+	font-size: 35px;
+	z-index: -1;
+}
+
+.seperator{
+	position: absolute;
+	top: 20%;
+	left: 31%;
+	width: 485px;
+	height: 4px;
+	background-color: #843bc7;
+	margin: 15px;
+	z-index: -1;
+}
+
+.row{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.column{
+    width: 50%;
+    float:left;
+    padding:100px 10px;
+}
+
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+  }	
+
+img{
+	width: 250px;
+	margin: 25px 50px 25px 50px;	 
+	height: auto; 
+	padding-top:10px; 
+	border-radius: 10px;
+}
+
+h5{
+	font-size: 20px;
+}
+
+@media screen and (max-width:600px){
+.column{
+   	width:100%;
+    display:block;
+    margin-bottom: 20px;
+      }
+  }
+
+.card
+  {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      max-width:350px;
+      margin:auto;
+      background-color:white;
+      text-align:center;
+      border-radius:40px;
+      padding-bottom:15px;
+  }
+
+.title{
+    color:gray;
+    font-size:18px;
+}
+
+button{
+    border:none;
+    padding:8px;
+    display: inline-block;
+    color:#fff;
+    background-color:#6C63FF;
+    border: 2px solid #6C63FF;
+    cursor:pointer;
+    width:70%;
+    border-radius:20px;
+    font-size:18px;
+    text-align:center;  
+}
+
+button:hover{
+	color: #6C63FF;
+	outline: 0;
+}
+
+button.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+button.first:hover {
+  box-shadow: 0 0 40px 40px #ffff inset;
+}
+
+.footer{
+	margin-top: 15px;
+   	width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+    background: #6C63FF;
+    color: #fff;
+}
+
+.footer p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Modal */
+.modal-body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gambar{
+	width: 50%;
+	max-width: 50%;
+}
+
+.gambar img{
+ 	border-radius: 5%;
+}
+
+.modal-footer .btn{
+	width: 150px;
+}
